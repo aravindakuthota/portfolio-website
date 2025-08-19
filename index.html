@@ -4,144 +4,209 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aravind | Portfolio</title>
+  <meta name="description" content="Entry-level Software Engineer (MERN & Java) passionate about building scalable SaaS products and contributing to innovative engineering teams." />
+  <title>Aravind Kuthota | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="#Home">Home</a></li>
-      <li><a href="#About">About me</a></li>
-      <li><a href="#skills">Skills></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#Contact">Contact</a></li>
-    </ul>
+  <div class="animated-bg" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+    <span class="blob blob-4"></span>
+  </div>
+  <nav class="navbar">
+    <div class="container nav-content">
+      <div class="brand">Aravind<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- SECTIONS -->
-  <section id="about">
-    <h1>Hi, I'm Aravind 👋</h1>
-    <p> I'm a passionate and dedicated frontend <br> developer who recently embarked on this <br> exciting journey into
-      web development.<br> With a string foundation in modern technologies,<br> I love bringing creactive <br> designs
-      to life through clean, efficient <br>code </p>
-
-
-
-    <div>
-      <h3>Projects <br> completed</h3>
-      <h3> Year Learning</h3>
-      <h3> Technologies</h3>
-      <h3> Passion</h3>
+  <section id="home" class="hero">
+    <div class="container hero-inner reveal">
+      <div>
+        <h1>Hi, I'm <span>Aravind Kuthota</span> 👋</h1>
+        <p class="tagline">Entry-level Software Engineer skilled in full-stack development (MERN & Java) with strong problem-solving abilities. Passionate about building scalable SaaS products and contributing to innovative engineering teams.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects"><i class="fas fa-code"></i> View Projects</a>
+          <a class="btn outline" href="#contact"><i class="fas fa-paper-plane"></i> Contact Me</a>
+          <a class="btn ghost" href="resume.pdf" target="_blank"><i class="fas fa-file-arrow-down"></i> Resume</a>
+        </div>
+        <div class="socials">
+          <a class="email-link" data-user="aravindakuthota543" data-domain1="gmail" data-domain2="com" aria-label="Email" title="Email"><i class="fas fa-envelope"></i><span>Email</span></a>
+          <a href="https://www.linkedin.com/in/aravindakuthota" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+          <a href="https://www.github.com/aravindakuthota" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i><span>GitHub</span></a>
+          <a href="https://aravindakuthota.me" target="_blank" rel="noreferrer" aria-label="Website"><i class="fas fa-globe"></i><span>Website</span></a>
+        </div>
+      </div>
     </div>
+  </section>
 
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About</h2>
+      <p class="lead reveal">I build modern web applications with a focus on clean code, scalability, and delightful user experience. I enjoy solving real-world problems and collaborating with ambitious teams.</p>
+    </div>
+  </section>
 
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <div class="card reveal">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <ul>
+            <li>Java</li>
+            <li>JavaScript (ES6+)</li>
+            <li>HTML/CSS</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3><i class="fas fa-cubes"></i> Frameworks</h3>
+          <ul>
+            <li>Next.js, React.js</li>
+            <li>Node.js, Express.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3><i class="fas fa-wrench"></i> Tools</h3>
+          <ul>
+            <li>Git, Docker</li>
+            <li>Postman, Firebase</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3><i class="fas fa-star"></i> Strengths</h3>
+          <ul>
+            <li>Problem Solving</li>
+            <li>System Design Basics</li>
+            <li>Team Collaboration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">May 2024 – Aug 2024 • Remote</div>
+          <h3>Open Source Contributor — GirlScript Summer of Code (GSSoC)</h3>
+          <ul>
+            <li>Contributed to 3+ projects across features, bug fixes, and documentation.</li>
+            <li>Enhanced UI/UX in React applications and improved code quality.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <h3>Fresheresume</h3>
+          <p>Resume builder SaaS using MERN stack; acquired 300+ paid users.</p>
+          <div class="tags">
+            <span>MERN</span><span>SaaS</span><span>Stripe/Payments</span>
+          </div>
+          <div class="links">
+            <a href="#" aria-label="Live link"><i class="fas fa-external-link-alt"></i> Live</a>
+            <a href="#" aria-label="Code link"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio showcasing projects and blogs. Integrated GitHub API and deployed on Netlify.</p>
+          <div class="tags">
+            <span>Next.js</span><span>React</span><span>Netlify</span>
+          </div>
+          <div class="links">
+            <a href="https://aravindakuthota.me" target="_blank" rel="noreferrer"><i class="fas fa-globe"></i> Live</a>
+            <a href="#" aria-label="Code link"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="edu">
+        <div class="edu-item reveal">
+          <h3>B.Tech in Computer Science — Vaagdevi College of Engineering</h3>
+          <div class="meta">2021 – 2025</div>
+          <p>Relevant Coursework: Data Structures & Algorithms, DBMS, Operating Systems.</p>
+        </div>
+        <div class="edu-item reveal">
+          <h3>Intermediate — Narayana Junior College</h3>
+          <div class="meta">2019 – 2021</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Let's Work Together</h2>
+      <p class="lead reveal">I'm always excited to work on new projects and collaborate with amazing people.</p>
+      <div class="contact-grid">
+        <div class="contact-item reveal"><i class="fas fa-envelope"></i> <a class="email-link" data-user="aravindakuthota543" data-domain1="gmail" data-domain2="com" data-label="Mail me"></a></div>
+        <div class="contact-item reveal"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aravindakuthota" target="_blank" rel="noreferrer">linkedin.com/in/aravindakuthota</a></div>
+        <div class="contact-item reveal"><i class="fab fa-github"></i> <a href="https://github.com/aravindakuthota" target="_blank" rel="noreferrer">github.com/aravindakuthota</a></div>
+      </div>
+      <div class="what-looking reveal">
+        <h3>What I'm Looking For</h3>
+        <ul>
+          <li><i class="fas fa-bolt"></i> Entry-level Software Engineer roles</li>
+          <li><i class="fas fa-laptop-code"></i> Freelance Projects</li>
+          <li><i class="fas fa-users"></i> Collaboration Opportunities</li>
+          <li><i class="fas fa-graduation-cap"></i> Mentorship & Learning</li>
+        </ul>
+      </div>
+      <div class="cta-row reveal">
+        <a class="btn whatsapp" href="https://wa.me/918367067923" target="_blank" rel="noreferrer"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+      </div>
+      <div class="community reveal">
+        <h3>Leadership & Community</h3>
+        <ul>
+          <li>Admin of developer Discord community (300+ members)</li>
+          <li>Mentored juniors on Git, GitHub, and open-source contributions</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Aravind Kuthota. Built with passion.</div>
+      <div class="footer-socials">
+        <a class="email-link" data-user="aravindakuthota543" data-domain1="gmail" data-domain2="com" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/aravindakuthota" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/aravindakuthota" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
 
-
-
-
-
-
-
-    <section id="resume">
-      <h2>My Resume</h2>
-      <p><a href="your-resume-link.pdf" target="_blank">Download Resume</a></p>
-
-
-
-
-    </section>
-
-    <section id="projects">
-      <h2>My Projects</h2>
-      <p>Will add some dope projects here later. Stay tuned 😎</p>
-    </section>
-
-
-
-    <ul>
-      <ol>
-        <h2>SAAS website</h2>
-        <p> camusmonk</p>
-        <p>Techstack : Html,css</p>
-
-      </ol>
-    </ul>
-
-
-
-    <!-- Font Awesome CDN (Put this in <head>) -->
-
-
-<section id="contact">
-  <h2>Let's Work Together</h2>
-  <p>I'm always excited to work on new projects and collaborate <br> with amazing people</p>
-
-  <div style="margin-top: 30px;">
-    <h1>Get In Touch</h1>
-    <p>
-      <i class="fas fa-envelope" style="color: #c70039; margin-right: 8px;"></i>
-      <a href="mailto:aravindakuthota543@gmail.com">aravindakuthota543@gmail.com</a>
-    </p>
-    <p>
-      <i class="fab fa-linkedin" style="color: #c70039; margin-right: 8px;"></i>
-      <a href="https://www.linkedin.com/in/aravindakuthota" target="_blank">LinkedIn</a>
-    </p>
-    <p>
-      <i class="fab fa-github" style="color: #c70039; margin-right: 8px;"></i>
-      <a href="https://www.github.com/aravindakuthota" target="_blank">GitHub</a>
-    </p>
-  </div>
-
-  <div style="margin-top: 30px;">
-    <h3>What I'm Looking For</h3>
-    <ul style="list-style: none; padding-left: 0;">
-      <li>
-        <i class="fas fa-bolt" style="color: #c70039; margin-right: 8px;"></i>
-        Entry-level Frontend Positions
-      </li>
-      <li>
-        <i class="fas fa-laptop-code" style="color: #c70039; margin-right: 8px;"></i>
-        Freelance Projects
-      </li>
-      <li>
-        <i class="fas fa-users" style="color: #c70039; margin-right: 8px;"></i>
-        Collaboration Opportunities
-      </li>
-      <li>
-        <i class="fas fa-graduation-cap" style="color: #c70039; margin-right: 8px;"></i>
-        Mentorship & Learning
-      </li>
-    </ul>
-  </div>
-
-  <!-- Optional: WhatsApp Button -->
-  <div style="margin-top: 30px;">
-    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" style="
-        display: inline-block;
-        padding: 12px 24px;
-        background: linear-gradient(to right, #d32f2f, #ff5e57);
-        color: white;
-        text-decoration: none;
-        border-radius: 8px;
-        font-weight: bold;
-    ">
-      <i class="fab fa-whatsapp" style="margin-right: 8px;"></i>
-      Chat on WhatsApp
-    </a>
-  </div>
-</section>
-
-
-
-   
-
+  <script src="script.js" defer></script>
 </body>
 
 </html>
