@@ -129,6 +129,22 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #990302;
+  box-shadow: 0 8px 24px rgba(153,3,2,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 32px rgba(153,3,2,0.25);
+}
+
+/* Keep placeholder styles for fallback if needed */
 .photo-placeholder {
   width: 200px;
   height: 200px;
@@ -467,6 +483,10 @@ html, body {
   }
   .hero-photo {
     order: -1;
+  }
+  .profile-photo {
+    width: 150px;
+    height: 150px;
   }
   .photo-placeholder {
     width: 150px;
