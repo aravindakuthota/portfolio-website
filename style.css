@@ -130,18 +130,29 @@ html, body {
   align-items: center;
 }
 .profile-photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #990302;
-  box-shadow: 0 8px 24px rgba(153,3,2,0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid #990302 !important;
+  box-shadow: 0 8px 24px rgba(153,3,2,0.15) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  display: block !important;
+  overflow: hidden !important;
 }
 
 .profile-photo:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 32px rgba(153,3,2,0.25);
+  transform: scale(1.05) !important;
+  box-shadow: 0 12px 32px rgba(153,3,2,0.25) !important;
+}
+
+/* Additional styling to ensure round shape */
+.hero-photo img.profile-photo {
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  overflow: hidden !important;
+  object-fit: cover !important;
 }
 
 /* Keep placeholder styles for fallback if needed */
